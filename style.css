@@ -1,0 +1,75 @@
+/* Global Styling */
+*{
+    margin:0;
+    padding:0;
+    font-family:"poppins",sans-serif;
+    box-sizing: border-box;
+}
+
+/* Style Calculator heading */
+form .heading{
+    text-align:center;
+    color: #FFC436;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    
+}
+
+/* Styling to page */
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFC436;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Calculator body */
+.calculator{
+    background-color: #191D88;
+    padding:20px;
+    border-radius: 10px;
+}
+
+/* Calculator input button styling */
+.calculator form input{
+    border: 1px solid #FFC436;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px #337CCF, 5px 5px 15px #1450A3;
+    background: transparent;
+    color:#fff;
+    cursor:pointer;
+    margin: 7px;
+}
+
+/* Calculator input box styling */
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+
+}
+form .display input{
+    border: 1px solid #FFC436;
+    height: 80px;
+    text-align:right;
+    flex:1;
+    font-size: 28px;
+    box-shadow: none;
+    background-color: #1450A3;
+ 
+}
+
+/* equal button styling */
+form input.equal{
+    width: 145px;
+}
+
+/* Providing color to Operator */
+form input.operator{
+    color:#FFC436;
+}
